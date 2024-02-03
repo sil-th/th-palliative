@@ -16,3 +16,9 @@ SIL-TH วางแผนไว้ว่าในอนาคตจะพัฒ�
 - [TH Core MedicationStatement](https://fhir-ig.sil-th.org/build/core/StructureDefinition-th-core-medicationstatement.html): การใช้ยา
 - [TH Core Encounter](https://fhir-ig.sil-th.org/build/core/StructureDefinition-th-core-encounter.html): การรับบริการ
 - [TH Core Condition](https://fhir-ig.sil-th.org/build/core/StructureDefinition-th-core-condition.html): โรค/ปัญหา/การวินิจฉัย
+
+### การ mapping เข้าสู่ registry
+
+คณะผู้จัดทำได้จัดทำเอกสารการ mapping เพื่อแสดงการจับคู่ระหว่าง dataset ต้นฉบับของกรมการแพทย์ กับเนื้อหาใน FHIR IG นี้ ดังลิงก์ด้านล่างนี้
+
+- [Mapping ข้อมูล](https://docs.google.com/spreadsheets/d/1oJeURMNN7y1LqFpAcfwtWN-15wXWS-znvw7nHpaG4YY/edit?usp=sharing)

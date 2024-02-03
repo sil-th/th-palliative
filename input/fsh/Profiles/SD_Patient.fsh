@@ -1,5 +1,5 @@
 // Profile: THPalliativePatient
-// Parent: $THCorePatient
+// Parent: THCorePatient
 // Id: th-palliative-patient
 // Title: "TH Palliative Patient"
 // Description: "ผู้ป่วย Palliative"

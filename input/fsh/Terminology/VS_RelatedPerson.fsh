@@ -4,12 +4,12 @@ Title: "RelatedPerson Palliative Relationship"
 Description: "ความสัมพันธ์ของผู้เกี่ยวข้องในการดูแลผู้ป่วย palliative"
 * ^meta.profile = $SD_SharableVS
 * ^experimental = false
-* CS_LocalCodes#REL.1 "คู่ชีวิต"
-* CS_LocalCodes#REL.2 "บุตร"
-* CS_LocalCodes#REL.3 "ญาติ"
-* CS_LocalCodes#REL.4 "ผู้รับจ้างดูแล"
-* CS_LocalCodes#REL.5 "อาสาสมัครนักบริบาลชุมชน"
-* CS_LocalCodes#REL.6 "ผู้นำส่งโรงพยาบาล"
+* SNOMED_CT_INT#127848009 "Spouse"
+* SNOMED_CT_INT#67822003 "Child"
+* SNOMED_CT_INT#125677006 "Relative"
+* SNOMED_CT_INT#133932002 "Caregiver"
+* SNOMED_CT_INT#160772005 "Voluntary worker"
+* SNOMED_CT_INT#257513009 "Member of public"
 
 
 ValueSet: VS_PalliativeRole
@@ -18,5 +18,5 @@ Title: "RelatedPerson Palliative Role"
 Description: "บทบาทในการดูแลผู้ป่วย palliative"
 * ^meta.profile = $SD_SharableVS
 * ^experimental = false
-* CS_LocalCodes#PALR.1 "main care giver"
-* CS_LocalCodes#PALR.2 "surrogate decision maker"
+* SNOMED_CT_INT#407543004 "Primary caregiver"
+* SNOMED_CT_INT#1269519005 "Deputy"

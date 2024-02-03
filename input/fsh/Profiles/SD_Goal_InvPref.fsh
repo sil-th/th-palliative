@@ -14,10 +14,10 @@ Description: "ความต้องการด้านการรับก
   * ^short = "รายละเอียดความต้องการ"
 * subject MS
   * ^short = "ผู้ป่วย/ผู้รับบริการ"
-* subject only Reference($THCorePatient)
+* subject only Reference(THCorePatient)
 * source MS
   * ^short = "ผู้ให้ข้อมูล"
-* source only Reference($THCorePatient or THPalliativeRelatedPerson or $THCorePractitioner or $THCorePractitionerRole)
+* source only Reference(THCorePatient or THPalliativeRelatedPerson or THCorePractitioner or THCorePractitionerRole)
 
 
 Profile: THPalliativeGoalINV1
@@ -26,7 +26,7 @@ Id: th-palliative-goal-inv1
 Title: "TH Palliative Goal Personal Intervention 1"
 Description: "สิ่งที่ต้องการความช่วยเหลือ"
 * ^status = #draft
-* category = CS_LocalCodes#INV.1
+* category = CS_PersonalIntervention#Q1
 * description from VS_INV1 (required)
 
 
@@ -36,7 +36,7 @@ Id: th-palliative-goal-inv2
 Title: "TH Palliative Goal Personal Intervention 2"
 Description: "ความต้องการการดำรงชีวิต"
 * ^status = #draft
-* category = CS_LocalCodes#INV.2
+* category = CS_PersonalIntervention#Q2
 * description from VS_INV2 (required)
 
 
@@ -46,7 +46,7 @@ Id: th-palliative-goal-inv3
 Title: "TH Palliative Goal Personal Intervention 3"
 Description: "ความต้องการการช่วยเหลือด้านอุปกรณ์"
 * ^status = #draft
-* category = CS_LocalCodes#INV.3
+* category = CS_PersonalIntervention#Q3
 * description from VS_INV3 (required)
   * ^short = "หากต้องการระบุบริการอื่น ๆ สามารถระบุใน description.text ได้"
 
@@ -57,7 +57,7 @@ Id: th-palliative-goal-inv4
 Title: "TH Palliative Goal Personal Intervention 4"
 Description: "เป้าหมายการดูแลในช่วงสุดท้ายของชีวิต"
 * ^status = #draft
-* category = CS_LocalCodes#INV.4
+* category = CS_PersonalIntervention#Q4
 * description from VS_INV4 (required)
 
 
@@ -67,7 +67,7 @@ Id: th-palliative-goal-inv5
 Title: "TH Palliative Goal Personal Intervention 5"
 Description: "สภาวะที่ยอมรับไม่ได้ในช่วงสุดท้ายของชีวิต"
 * ^status = #draft
-* category = CS_LocalCodes#INV.5
+* category = CS_PersonalIntervention#Q5
 * description from VS_INV5 (required)
   * ^short = "หากต้องการระบุสภาวะอื่น ๆ สามารถระบุใน description.text ได้"
 
@@ -78,7 +78,7 @@ Id: th-palliative-goal-inv6
 Title: "TH Palliative Goal Personal Intervention 6"
 Description: "ความต้องการจากไปอย่างสงบตามธรรมชาติ ไม่เร่ง หรือยืดการตาย"
 * ^status = #draft
-* category = CS_LocalCodes#INV.6
+* category = CS_PersonalIntervention#Q6
 * description from VS_INV6 (required)
 
 
@@ -88,7 +88,7 @@ Id: th-palliative-goal-inv7
 Title: "TH Palliative Goal Personal Intervention 7"
 Description: "ความต้องการเสียชีวิต ณ สถานที่"
 * ^status = #draft
-* category = CS_LocalCodes#INV.7
+* category = CS_PersonalIntervention#Q7
 * description from VS_INV7 (required)
 
 
@@ -98,7 +98,7 @@ Id: th-palliative-goal-inv8
 Title: "TH Palliative Goal Personal Intervention 8"
 Description: "ความต้องการการช่วยฟื้นคืนชีพ"
 * ^status = #draft
-* category = CS_LocalCodes#INV.8
+* category = CS_PersonalIntervention#Q8
 * description from VS_INV8 (required)
 
 
@@ -108,7 +108,7 @@ Id: th-palliative-goal-inv9
 Title: "TH Palliative Goal Personal Intervention 9"
 Description: "ความประสงค์บริจาคอวัยวะ"
 * ^status = #draft
-* category = CS_LocalCodes#INV.9
+* category = CS_PersonalIntervention#Q9
 * description from VS_INV9 (required)
 
 
@@ -118,7 +118,7 @@ Id: th-palliative-goal-inv10
 Title: "TH Palliative Goal Personal Intervention 10"
 Description: "นโยบายการให้ความช่วยเหลือ"
 * ^status = #draft
-* category = CS_LocalCodes#INV.10
+* category = CS_PersonalIntervention#Q10
 * description from VS_INV10 (required)
 
 
@@ -128,6 +128,6 @@ Id: th-palliative-goal-inv11
 Title: "TH Palliative Goal Personal Intervention 11"
 Description: "กิจกรรมหลักที่ต้องการการดูแล"
 * ^status = #draft
-* category = CS_LocalCodes#INV.11
+* category = CS_PersonalIntervention#Q11
 * description from VS_INV11 (required)
   * ^short = "หากกิจกรรมที่ต้องการการดูแลไม่มีใน value set สามารถระบุใน description.text ได้"

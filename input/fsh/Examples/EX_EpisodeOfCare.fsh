@@ -4,13 +4,13 @@ Title: "ตัวอย่าง EpisodeOfCare: ช่วงของการ�
 Description: "ช่วงของการดูแลรักษาระยะสุดท้าย นายสมชาย ใจดี"
 Usage: #example
 * status = #active
-* type[palliative] = $CS_HL7_EncounterClass#HH "home health"
+* type = ActCode#HH "home health"
 * diagnosis[0]
   * condition
     * reference = Reference(condition1)
-  * use = $CS_43Plus_EncounterDiagnosisRole#1 "PRINCIPLE DX (การวินิจฉัยโรคหลัก)"
+  * use = CS_43Plus_EncounterDiagnosisRole#1 "PRINCIPLE DX (การวินิจฉัยโรคหลัก)"
 * diagnosis[+]
   * condition
     * reference = Reference(condition2)
-  * use = $CS_43Plus_EncounterDiagnosisRole#2 "CO-MORBIDITY (การวินิจฉัยโรคร่วม)"
+  * use = CS_43Plus_EncounterDiagnosisRole#2 "CO-MORBIDITY (การวินิจฉัยโรคร่วม)"
 * patient = Reference(patient1)

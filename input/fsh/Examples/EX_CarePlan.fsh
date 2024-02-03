@@ -6,7 +6,7 @@ Usage: #example
 * status = #active
 * intent = #proposal
 * created = "2020-12-01T12:30:02+07:00"
-* category[adi] = $SCT#736366004 "Advance care plan"
+* category[adi] = SNOMED_CT_INT#736366004 "Advance care plan"
 * subject = Reference(patient1)
 * addresses[0]
   * reference = Reference(condition1)
