@@ -1,3 +1,3 @@
-### TH Palliative Draft: เวอร์ชั่น 0.0.1
+### (Draft) TH Palliative - QA Preview: เวอร์ชั่น 0.1.0
 
-- initial publication เพื่อรับฟังความคิดเห็นจากผู้เกี่ยวข้อง
+เป็นการเผยแพร่ Implementation Guide (IG) เป็นครั้งแรก เพื่อรับฟังความเห็นจากผู้มีส่วนได้เสีย (stakeholder) เพื่อนำมาปรับปรุงต่อไป
